@@ -16,7 +16,7 @@
     &__descr {
         padding-top: 6px;
         .divider {
-            margin-top: 0;
+            margin: 0;
         }
     }
     &__title {
@@ -47,8 +47,9 @@
                 top: 0;
             }
         }
-        &-text {
+        p {
             margin-top: 6px;
+            margin-bottom: 0;
             font-size: 12px;
             line-height: 18px;
         }

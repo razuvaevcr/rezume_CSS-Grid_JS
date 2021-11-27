@@ -15,4 +15,13 @@ overlay.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
+// Rating
+
+const counters = document.querySelectorAll('.skills__rating-counter'),
+    lines = document.querySelectorAll('.skills__rating-counter span');
+
+counters.forEach((item, i) => {
+    lines[i].style.width = item.innerHTML;
+})
+
 
