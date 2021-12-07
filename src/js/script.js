@@ -18,10 +18,11 @@ overlay.addEventListener('click', () => {
 // Rating
 
 const counters = document.querySelectorAll('.skills__rating-counter'),
-    lines = document.querySelectorAll('.skills__rating-counter span');
+      lines = document.querySelectorAll('.skills__rating-line span');
 
 counters.forEach((item, i) => {
     lines[i].style.width = item.innerHTML;
-})
+});
+
 
 

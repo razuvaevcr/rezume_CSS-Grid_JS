@@ -84,7 +84,7 @@
         position: absolute;
         bottom: 50px;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(calc(-50% - 20px));
         width: 90px;
         display: flex;
         justify-content: space-between;
