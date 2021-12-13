@@ -16,7 +16,6 @@
         }
     }
     &__item {
-        filter: grayscale(100%);
         transition: all .5s;
         img {
             width: 100%;
@@ -25,7 +24,6 @@
         }
         &:hover {
             transform: scale(1.02);
-            filter: grayscale(0);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         }
     }
